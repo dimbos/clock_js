@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#clock{
+	height: 700px;
+	width: 700px;
+	margin: 0 auto;
+	border: 1px solid red;
+	position: relative;
+}
+
+#sec, #min{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	
+	/*margin: 0 auto;*/
+	/*transition: all ease 500ms;*/
+}
